@@ -172,8 +172,8 @@ a:hover {
 .btn-solid-lg {
 	display: inline-block;
 	padding: 1.625rem 2.625rem 1.625rem 2.625rem;
-	border: 1px solid #0b36a8;
-	background-color: #0b36a8;
+	border: 1px solid #000000;
+	background-color: #000000;
 	color: #ffffff;
 	font-weight: 600;
 	font-size: 0.875rem;
@@ -350,9 +350,9 @@ input[type='checkbox'] {
 	display: inline-block;
 	width: 100%;
 	height: 3.25rem;
-	border: 1px solid #0b36a8;
+	border: 1px solid #000000;
 	border-radius: 32px;
-	background-color: #0b36a8;
+	background-color: #000000;
 	color: #ffffff;
 	font-weight: 600;
 	font-size: 0.875rem;
@@ -386,7 +386,7 @@ input[type='checkbox'] {
 
 .navbar .logo-image img {
     width: 118px;
-	height: 36px;
+	height: 45px;
 }
 
 .navbar .logo-text {
@@ -521,9 +521,11 @@ input[type='checkbox'] {
 .header {
 	padding-top: 7rem;
 	padding-bottom: 5.5rem;
-	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/header-background.jpg') center center no-repeat;
+	/* background: linear-gradient(rgba(48, 48, 48, 0.1), rgba(33, 33, 33, 0.1)), url('../images/saddam-2.jpeg') center center no-repeat; */
+	background:linear-gradient(100deg, rgba(13, 13, 13, 0.3), rgba(13, 13, 13, 0.3)), url('../images/saddam-2.jpeg');
 	background-size: cover;
 	text-align: center;
+	filter: grayscale(100%);
 }
 
 .header .h1-large {
@@ -620,7 +622,7 @@ input[type='checkbox'] {
 /*******************/
 .split .area-1 {
 	height: 430px;
-	background: linear-gradient(to bottom right, rgba(25, 26, 29, 0.5), rgba(25, 26, 29, 0.5)), url('../images/details-background.jpg') center center no-repeat;
+	background: linear-gradient(to bottom right, rgba(25, 26, 29, 0.5), rgba(25, 26, 29, 0.5)), url('../images/saddam-1.jpeg') center center no-repeat;
 	background-size: cover;
 }
 
@@ -641,6 +643,7 @@ input[type='checkbox'] {
 	width: 50px;
 	margin-right: 0.625rem;
 	margin-bottom: 0.75rem;
+	border-radius: 10px;
 }
 
 
@@ -877,12 +880,12 @@ input[type='checkbox'] {
 }
 
 .footer .fa-stack .fa-stack-2x {
-	color: #0b36a8;
+	color: #000000;
 	transition: all 0.2s ease;
 }
 
 .footer .fa-stack:hover .fa-stack-1x {
-	color: #0b36a8;
+	color: #000000;
 }
 
 .footer .fa-stack:hover .fa-stack-2x {
