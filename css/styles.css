@@ -522,7 +522,7 @@ input[type='checkbox'] {
 	padding-top: 7rem;
 	padding-bottom: 5.5rem;
 	/* background: linear-gradient(rgba(48, 48, 48, 0.1), rgba(33, 33, 33, 0.1)), url('../images/saddam-2.jpeg') center center no-repeat; */
-	background:linear-gradient(100deg, rgba(13, 13, 13, 0.3), rgba(13, 13, 13, 0.3)), url('../images/saddam-2.jpeg');
+	background:linear-gradient(100deg, rgba(13, 13, 13, 0.3), rgba(13, 13, 13, 0.3)), url('../images/saddam-2.webp');
 	background-size: cover;
 	text-align: center;
 	filter: grayscale(100%);
@@ -622,7 +622,7 @@ input[type='checkbox'] {
 /*******************/
 .split .area-1 {
 	height: 430px;
-	background: linear-gradient(to bottom right, rgba(25, 26, 29, 0.5), rgba(25, 26, 29, 0.5)), url('../images/saddam-1.jpeg') center center no-repeat;
+	background: linear-gradient(to bottom right, rgba(25, 26, 29, 0.5), rgba(25, 26, 29, 0.5)), url('../images/saddam-1.webp') center center no-repeat;
 	background-size: cover;
 }
 
@@ -1002,6 +1002,7 @@ a:hover.back-to-top {
 	.header {
 		padding-top: 11rem;
 		padding-bottom: 9rem;
+		background-position-x: center !important;
 	}
 	/* end of header */
 
@@ -1027,6 +1028,9 @@ a:hover.back-to-top {
 @media (min-width: 992px) {
 	
 	/* General Styles */
+	.header {
+		background-position-x: center !important;
+	}
 	.h2-heading {
 		width: 35.25rem;
 		margin-right: auto;
@@ -1225,6 +1229,7 @@ a:hover.back-to-top {
 	.header {
 		padding-top: 18.25rem;
 		padding-bottom: 17.25rem;
+		background-position-x: center !important;
 	}
 	/* end of header */
 
@@ -1281,3 +1286,9 @@ a:hover.back-to-top {
 	/* end of extra pages */
 }
 /* end of min-width 1200px */
+
+@media (max-width: 860px) {
+	.header {
+		background-position-x: center !important;
+	}
+}
