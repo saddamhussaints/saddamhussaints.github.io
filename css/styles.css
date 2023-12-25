@@ -1256,6 +1256,7 @@ a:hover.back-to-top {
 	/* Details */
 	.split {
 		height: 700px;
+		display: flex;
 	}
 
 	.split .text-container {
