@@ -620,6 +620,9 @@ input[type='checkbox'] {
 /*******************/
 /*     Details     */
 /*******************/
+.split{
+	display: flex;
+}
 .split .area-1 {
 	height: 430px;
 	background: linear-gradient(to bottom right, rgba(25, 26, 29, 0.5), rgba(25, 26, 29, 0.5)), url('../images/saddam-1.webp') center center no-repeat;
