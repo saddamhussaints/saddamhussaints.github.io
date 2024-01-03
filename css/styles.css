@@ -1023,6 +1023,19 @@ a:hover.back-to-top {
 		padding: 1.75rem 2rem 0.875rem 2rem;
 	}
 	/* end of extra pages */
+
+	.btn-solid-lg {
+		display: inline-block;
+		padding: 1rem 1.5rem 1rem 1.5rem;
+		border: 1px solid #000000;
+		background-color: #000000;
+		color: #ffffff;
+		font-weight: 600;
+		font-size: 0.875rem;
+		line-height: 0;
+		text-decoration: none;
+		transition: all 0.2s;
+	}
 }
 /* end of min-width 768px */
 
@@ -1206,6 +1219,7 @@ a:hover.back-to-top {
 		margin-left: 1rem;
 	}
 	/* end of extra pages */
+
 }
 /* end of min-width 992px */
 
@@ -1288,11 +1302,24 @@ a:hover.back-to-top {
 		margin-left: 2.875rem;
 	}
 	/* end of extra pages */
+
 }
 /* end of min-width 1200px */
 
 @media (max-width: 860px) {
 	.header {
 		background-position-x: center !important;
+	}
+	.btn-solid-lg {
+		display: inline-block;
+		padding: 0.625rem 1.2rem 0.625rem 1.2rem;
+		border: 1px solid #000000;
+		background-color: #000000;
+		color: #ffffff;
+		font-weight: 600;
+		font-size: 0.875rem;
+		line-height: 0;
+		text-decoration: none;
+		transition: all 0.2s;
 	}
 }
