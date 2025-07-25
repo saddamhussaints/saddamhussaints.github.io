@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.iexceed.retailneu",
+    "sha256_cert_fingerprints": ["EF:DB:D0:00:0B:75:84:51:51:D5:03:47:E8:AC:81:C9:91:DF:B8:D5:2F:72:B8:98:EE:A1:2D:98:81:72:CB:EE"]
+  }
+}]
