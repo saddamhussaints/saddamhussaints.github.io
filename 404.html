@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirecting...</title>
+    <script>
+      const fullPath = window.location.pathname + window.location.search;
+
+      // Customize redirection logic
+      if (fullPath.startsWith("/item")) {
+        // Redirect to Play Store or app fallback for /item links
+        window.location.href = "https://play.google.com/store/apps/details?id=com.example.app";
+      } else if (fullPath.startsWith("/product")) {
+        // Redirect to Play Store or app fallback for /product links
+        window.location.href = "https://play.google.com/store/apps/details?id=com.example.app";
+      } else {
+        // Default fallback (homepage or other fallback site)
+        window.location.href = "/";
+      }
+    </script>
+  </head>
+  <body>
+    <p>Redirecting...</p>
+  </body>
+</html>
