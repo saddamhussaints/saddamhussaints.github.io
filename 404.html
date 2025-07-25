@@ -7,7 +7,7 @@
       const fullPath = window.location.pathname + window.location.search;
 
       // Customize redirection logic
-      if (fullPath.startsWith("/item")) {
+      if (fullPath.startsWith("/registration")) {
         // Redirect to Play Store or app fallback for /item links
         window.location.href = "https://play.google.com/store/apps/details?id=com.neomaxer.neostore";
       } else if (fullPath.startsWith("/product")) {
