@@ -11,7 +11,7 @@
       if (fullPath.startsWith("/registration")) {
 
         if(/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream){
-          
+         window.location.href = "https://apps.apple.com/in/app/neomaxer-store/id6670554292";
         }else {
              // Redirect to Play Store or app fallback for /item links
             window.location.href = "https://play.google.com/store/apps/details?id=com.neomaxer.neostore";
@@ -19,7 +19,7 @@
       } else if (fullPath.startsWith("/product")) {
         // Redirect to Play Store or app fallback for /product links
        if(/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream){
-          
+         window.location.href = "https://apps.apple.com/in/app/neomaxer-store/id6670554292";
         }else {
              // Redirect to Play Store or app fallback for /item links
             window.location.href = "https://play.google.com/store/apps/details?id=com.neomaxer.neostore";
